@@ -55,7 +55,7 @@ export function VideoSection() {
           <video
             controls
             className="w-full h-full object-contain"
-            src="presentvideo.mkv" // Adjust the path based on your file location
+            src="presentvideo.mp4" // Adjust the path based on your file location
           >
             Your browser does not support the video tag.
           </video>
