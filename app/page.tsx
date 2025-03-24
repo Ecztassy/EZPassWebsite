@@ -214,54 +214,59 @@ export default function Home() {
           <p className="text-purple-100 mb-8">
             Faça o download do EZPass e comece agora a proteger as suas passwords com a segurança de uma Criptografia que supercomputadores levariam várias vidas a quebrar.
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-2">
             {/* First Row: Windows, Mac, Linux */}
             <div className="flex justify-center">
-              <a href="/downloads/EZPass-0.1.0-x86_64.msi" download="EZPass-0.1.0-x86_64.msi" className="w-full max-w-xs">
+              <a href="/downloads/EZPass-0.1.0-x86_64.msi" download="EZPass-0.1.0-x86_64.msi" className="w-full max-w-xs landscape:max-w-full">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 landscape:h-10 flex items-center justify-center space-x-2 px-4 overflow-hidden"
                 >
-                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download para Windows
+                  <Download className="h-5 w-5 flex-shrink-0 landscape:h-4 landscape:w-4" />
+                  <span className="text-sm landscape:text-xs truncate">Download para Windows</span>
                 </Button>
               </a>
             </div>
             <div className="flex justify-center">
-              <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs">
+              <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs landscape:max-w-full">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 landscape:h-10 flex items-center justify-center space-x-2 px-4 overflow-hidden"
                 >
-                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download para Mac
+                  <Download className="h-5 w-5 flex-shrink-0 landscape:h-4 landscape:w-4" />
+                  <span className="text-sm landscape:text-xs truncate">Download para Mac</span>
                 </Button>
               </a>
             </div>
             <div className="flex justify-center">
-              <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs">
+              <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs landscape:max-w-full">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 landscape:h-10 flex items-center justify-center space-x-2 px-4 overflow-hidden"
                 >
-                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download para Linux
+                  <Download className="h-5 w-5 flex-shrink-0 landscape:h-4 landscape:w-4" />
+                  <span className="text-sm landscape:text-xs truncate">Download para Linux</span>
                 </Button>
               </a>
             </div>
             {/* Second Row: Chrome, Firefox */}
-            <div className="col-span-full flex flex-col md:flex-row justify-center gap-4">
-              <a href="/downloads/EZPassextension_chrome.zip" download="EZPassextension_chrome.zip" className="w-full max-w-xs">
+            <div className="col-span-full flex flex-col md:flex-row justify-center gap-4 sm:gap-2">
+              <a href="/downloads/EZPassextension_chrome.zip" download="EZPassextension_chrome.zip" className="w-full max-w-xs landscape:max-w-full">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 landscape:h-10 flex items-center justify-center space-x-2 px-4 overflow-hidden"
                 >
-                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download da Extensão (Chrome)
+                  <Download className="h-5 w-5 flex-shrink-0 landscape:h-4 landscape:w-4" />
+                  <span className="text-sm landscape:text-xs truncate">Download da Extensão (Chrome)</span>
                 </Button>
               </a>
-              <a href="/downloads/EZPass.xpi" download="EZPass.xpi" className="w-full max-w-xs">
+              <a href="/downloads/EZPass.xpi" download="EZPass.xpi" className="w-full max-w-xs landscape:max-w-full">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 landscape:h-10 flex items-center justify-center space-x-2 px-4 overflow-hidden"
                 >
-                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download da Extensão (Firefox)
+                  <Download className="h-5 w-5 flex-shrink-0 landscape:h-4 landscape:w-4" />
+                  <span className="text-sm landscape:text-xs truncate">Download da Extensão (Firefox)</span>
                 </Button>
               </a>
             </div>
