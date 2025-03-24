@@ -205,72 +205,72 @@ export default function Home() {
 
       {/* Download Section - Updated with Uniform Button Sizes */}
       <ScrollFadeSection delay={500}>
-      <section className="relative py-20 px-4" id="download">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="relative inline-block mb-8">
-            <div className="absolute -inset-4 bg-gradient-to-r from-purple-500 to-fuchsia-500 rounded-lg opacity-30 blur-xl"></div>
-            <div className="relative bg-black/60 backdrop-blur-sm border border-purple-500/20 rounded-lg p-10">
-              <h2 className="text-4xl font-bold mb-6 text-purple-300">A sua vida digital assegurada.</h2>
-              <p className="text-purple-100 mb-8">
-                Faça o download do EZPass e comece agora a proteger as suas passwords com a segurança de uma Criptografia que supercomputadores levariam várias vidas a quebrar.
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {/* First Row: Windows, Mac, Linux */}
-                <div className="flex justify-center">
-                  <a href="/downloads/EZPass-0.1.0-x86_64.msi" download="EZPass-0.1.0-x86_64.msi" className="w-full max-w-xs">
-                    <Button
-                      size="lg"
-                      className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full"
-                    >
-                      <Download className="mr-2 h-5 w-5" /> Download para Windows
-                    </Button>
-                  </a>
-                </div>
-                <div className="flex justify-center">
-                  <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs">
-                    <Button
-                      size="lg"
-                      className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full"
-                    >
-                      <Download className="mr-2 h-5 w-5" /> Download para Mac
-                    </Button>
-                  </a>
-                </div>
-                <div className="flex justify-center">
-                  <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs">
-                    <Button
-                      size="lg"
-                      className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full"
-                    >
-                      <Download className="mr-2 h-5 w-5" /> Download para Linux
-                    </Button>
-                  </a>
-                </div>
-                {/* Second Row: Chrome, Firefox */}
-                <div className="col-span-full flex flex-col md:flex-row justify-center gap-4">
-                  <a href="/downloads/EZPassextension_chrome.zip" download="EZPassextension_chrome.zip" className="w-full max-w-xs">
-                    <Button
-                      size="lg"
-                      className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full"
-                    >
-                      <Download className="mr-2 h-5 w-5" /> Download da Extensão (Chrome)
-                    </Button>
-                  </a>
-                  <a href="/downloads/EZPass.xpi" download="EZPass.xpi" className="w-full max-w-xs">
-                    <Button
-                      size="lg"
-                      className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full"
-                    >
-                      <Download className="mr-2 h-5 w-5" /> Download da Extensão (Firefox)
-                    </Button>
-                  </a>
-                </div>
-              </div>
+  <section className="relative py-20 px-4" id="download">
+    <div className="max-w-4xl mx-auto text-center">
+      <div className="relative inline-block mb-8">
+        <div className="absolute -inset-4 bg-gradient-to-r from-purple-500 to-fuchsia-500 rounded-lg opacity-30 blur-xl"></div>
+        <div className="relative bg-black/60 backdrop-blur-sm border border-purple-500/20 rounded-lg p-10">
+          <h2 className="text-4xl font-bold mb-6 text-purple-300">A sua vida digital assegurada.</h2>
+          <p className="text-purple-100 mb-8">
+            Faça o download do EZPass e comece agora a proteger as suas passwords com a segurança de uma Criptografia que supercomputadores levariam várias vidas a quebrar.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            {/* First Row: Windows, Mac, Linux */}
+            <div className="flex justify-center">
+              <a href="/downloads/EZPass-0.1.0-x86_64.msi" download="EZPass-0.1.0-x86_64.msi" className="w-full max-w-xs">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                >
+                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download para Windows
+                </Button>
+              </a>
+            </div>
+            <div className="flex justify-center">
+              <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                >
+                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download para Mac
+                </Button>
+              </a>
+            </div>
+            <div className="flex justify-center">
+              <a href="/downloads/EZPass.zip" download="EZPass.zip" className="w-full max-w-xs">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                >
+                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download para Linux
+                </Button>
+              </a>
+            </div>
+            {/* Second Row: Chrome, Firefox */}
+            <div className="col-span-full flex flex-col md:flex-row justify-center gap-4">
+              <a href="/downloads/EZPassextension_chrome.zip" download="EZPassextension_chrome.zip" className="w-full max-w-xs">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                >
+                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download da Extensão (Chrome)
+                </Button>
+              </a>
+              <a href="/downloads/EZPass.xpi" download="EZPass.xpi" className="w-full max-w-xs">
+                <Button
+                  size="lg"
+                  className="bg-gradient-to-r from-purple-600 to-fuchsia-600 hover:from-purple-700 hover:to-fuchsia-700 text-white border-none w-full h-14 flex items-center justify-center text-sm truncate"
+                >
+                  <Download className="mr-2 h-5 w-5 flex-shrink-0" /> Download da Extensão (Firefox)
+                </Button>
+              </a>
             </div>
           </div>
         </div>
-      </section>
-    </ScrollFadeSection>
+      </div>
+    </div>
+  </section>
+</ScrollFadeSection>
 
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-purple-800/30">
