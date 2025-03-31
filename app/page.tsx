@@ -189,7 +189,7 @@ export default function Home() {
                   <Github className="h-5 w-5" />
                 </Button>
               </a>
-              <a href="https://portfoliodiogofragoso.vercel.app/" rel="noopener noreferrer" target="_blank">
+              <a href="https://portfoliodiogof.vercel.app/" rel="noopener noreferrer" target="_blank">
                 <Button
                   variant="outline"
                   size="icon"
