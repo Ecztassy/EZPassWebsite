@@ -180,7 +180,7 @@ export default function Home() {
               Estudante de TGPSI com um gosto por programação de baixo nível, sistemas operacionais e cibersegurança.
             </p>
             <div className="flex justify-center gap-4">
-              <a href="https://github.com/Ecztassy" rel="noopener noreferrer" target="_blank">
+              <a href="https://github.com/Ecztassy/EZPass" rel="noopener noreferrer" target="_blank">
                 <Button
                   variant="outline"
                   size="icon"
