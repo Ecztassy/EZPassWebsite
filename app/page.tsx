@@ -148,7 +148,7 @@ export default function Home() {
                 <div className="bg-purple-900/30 p-6 rounded-lg border border-purple-500/30 backdrop-blur-sm">
                   <h3 className="text-2xl font-bold mb-3 text-purple-300">Otimização</h3>
                   <p className="text-purple-100">
-                    O EZPass foi construído com o intuito de ser leve, rápido e seguro. Feito em Rust e com o mínimo de dependências possíveis, o máximo de funcionalidade em menos de 150mb de RAM.
+                    O EZPass foi construído com o intuito de ser leve, rápido e seguro. Feito em Rust e com o mínimo de dependências possíveis, o máximo de funcionalidade em menos de 50mb de RAM e 5mb de espaço.
                   </p>
                 </div>
               </div>
